@@ -1,0 +1,19 @@
+
+  
+  button {text-align: right;
+    font: inherit;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #696969;
+    padding: 0.5rem 2rem;
+    border-radius: 25px;
+    margin-left: 1rem;
+    transition: all 0.3s;
+  }
+  
+ button:hover,
+ button:active {
+    background-color: #f8640f;
+    border-color: #fafafa;
+    color: white;
+  }

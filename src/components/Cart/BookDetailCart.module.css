@@ -1,0 +1,53 @@
+.container{
+    width: 100%;
+    display: flex;
+flex-direction: column;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+    justify-content: space-between;
+}
+.header h1{
+    margin: 1rem;
+}
+
+.listandimage{display: flex;
+    width: 100%;
+    margin:1rem;
+   flex-direction: row;
+}
+.list{ 
+ 
+    width: 50%;
+
+}
+
+.imagecon{ 
+ padding: 1rem;
+border: 1px solid rgb(187, 187, 187);
+    width: 40%;
+    margin: auto;
+    border-radius: 30px;
+    box-shadow: inset 5px 5px 10px #cecece,
+    inset -5px -5px 10px #f2f2f2;
+}
+.image{
+    width: 100%;
+}
+.actions{
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 600px) {
+   .header h1{
+       font-size: 16px;
+   }
+}
